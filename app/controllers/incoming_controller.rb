@@ -15,19 +15,23 @@ class IncomingController < ApplicationController
     email = params[:sender]
     @user = User.where(email: email)
 
+
     url = params["body-plain"]
 
     # Check if user is nil, if so, create and save a new user
     if @user.nil?
       @user = User.create!(name: email, email: email, password: 'password')
     end
+    Rails.logger.info ">>>> user: #{@user.inspect}"
 
     # Check if the topic is nil, if so, create and save a new topic
     @topic = Topic.find_or_create_by(title: params[:subject].downcase)
+    Rails.logger.info ">>>> topic: #{@topic.inspect}"
 
     # Now that you're sure you have a valid user and topic, build and save a new bookmark
     @bookmark = @topic.bookmarks.build(url: url)
     @bookmark.user = @user
+    Rails.logger.info ">>>> bookmark: #{@bookmark.inspect}"
 
     if @bookmark.save
       head 200
