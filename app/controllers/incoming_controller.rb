@@ -21,7 +21,9 @@ class IncomingController < ApplicationController
 
     # Check if user is nil, if so, create and save a new user
     if @user.nil?
-      @user = User.create!(email: email, password: 'password')
+      @user = User.new(email: email, password: 'password')
+      @user.skip_confirmation!
+      @user.save!
     end
     Rails.logger.info ">>>> user: #{@user.inspect}"
 
