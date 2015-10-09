@@ -33,7 +33,6 @@ class IncomingController < ApplicationController
 
     # Now that you're sure you have a valid user and topic, build and save a new bookmark
     @bookmark = @topic.bookmarks.build(url: url)
-    @bookmark.user = @user
     Rails.logger.info ">>>> bookmark: #{@bookmark.inspect}"
 
     if @bookmark.save
