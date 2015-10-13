@@ -23,6 +23,7 @@ class TopicsController < ApplicationController
   # POST /topics
   def create
     @topic = Topic.new(topic_params)
+    @topic.user = current_user
 
     if @topic.save
       redirect_to @topic, notice: 'Topic was successfully created.'

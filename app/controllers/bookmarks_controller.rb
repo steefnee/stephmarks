@@ -8,6 +8,7 @@ class BookmarksController < ApplicationController
 
   # GET /bookmarks/1
   def show
+    @bookmarks = Bookmark.find(params[:id])
   end
 
   # GET /bookmarks/new
@@ -22,6 +23,7 @@ class BookmarksController < ApplicationController
   # POST /bookmarks
   def create
     @bookmark = Bookmark.new(bookmark_params)
+
 
     if @bookmark.save
       redirect_to @bookmark, notice: 'Bookmark was successfully created.'

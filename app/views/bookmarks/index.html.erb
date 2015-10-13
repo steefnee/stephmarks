@@ -1,8 +1,10 @@
+<div class="container">
 <p id="notice"><%= notice %></p>
+<%if current_user%>
+<h1 class="text-center">Your Stephmarks</h1>
+<%end%>
 
-<h1>Listing Bookmarks</h1>
-
-<table>
+<table class="table">
   <thead>
     <tr>
       <th>Url</th>
@@ -27,3 +29,4 @@
 <br>
 
 <%= link_to 'New Bookmark', new_bookmark_path %>
+</div>
