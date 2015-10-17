@@ -30,3 +30,5 @@ gem 'bootstrap-sass'
 gem 'devise'
 
 gem 'figaro'
+
+gem 'embedly'

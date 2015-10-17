@@ -1,3 +1,4 @@
+<div class="container">
 <p id="notice"><%= notice %></p>
 
 <p>
@@ -7,8 +8,10 @@
 
 <p>
   <strong>Topic:</strong>
-  <%= @bookmark.topic %>
+  <%= @bookmark.topic.title %>
 </p>
 
-<%= link_to 'Edit', edit_bookmark_path(@bookmark) %> |
-<%= link_to 'Back', bookmarks_path %>
+<%= link_to 'Edit', edit_topic_bookmark_path(@topic, @bookmark) %> |
+<%= link_to 'Back', :back %> |
+<%= link_to 'Delete', [@bookmark.topic, @bookmark], method: :delete, data: { confirm: 'Are you sure?' } %>
+</div>

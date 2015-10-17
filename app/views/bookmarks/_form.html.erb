@@ -1,4 +1,5 @@
-<%= form_for(@bookmark) do |f| %>
+
+<%= form_for([@topic, @bookmark]) do |f| %>
   <% if @bookmark.errors.any? %>
     <div id="error_explanation">
       <h2><%= pluralize(@bookmark.errors.count, "error") %> prohibited this bookmark from being saved:</h2>
@@ -15,10 +16,7 @@
     <%= f.label :url %><br>
     <%= f.text_field :url %>
   </div>
-  <div class="field">
-    <%= f.label :topic_id %><br>
-    <%= f.text_field :topic_id %>
-  </div>
+
   <div class="actions">
     <%= f.submit %>
   </div>

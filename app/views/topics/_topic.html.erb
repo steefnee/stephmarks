@@ -1,0 +1,9 @@
+<div class="topic">
+  <h3><%= link_to topic.title, topic %> </h3>
+  <ul>
+    <% topic.bookmarks.each  do |bookmark| %>
+      <%= link_to image_tag(bookmark.embedly, :height => 200), bookmark.url %>
+    <% end %>
+
+  </ul>
+</div>

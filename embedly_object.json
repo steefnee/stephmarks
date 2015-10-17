@@ -1,0 +1,482 @@
+{
+  "provider_url": "http://www.steelers.com",
+  "description": "Mike Tomlin Press Conference Pittsburgh Steelers head coach Mike Tomlin summarizes the previous game and looks ahead to the upcoming opponent in his weekly press conference.",
+  "embeds": [
+
+  ],
+  "safe": true,
+  "provider_display": "www.steelers.com",
+  "related": [
+
+  ],
+  "favicon_url": "http://www.steelers.com/favicon.ico",
+  "authors": [
+
+  ],
+  "images": [
+    {
+      "caption": null,
+      "url": "http://prod.static.steelers.clubs.nfl.com/nfl-assets/img/gbl-ico-team/PIT/logos/home/large.png",
+      "height": 1200,
+      "width": 1200,
+      "colors": [
+        {
+          "color": [
+            250,
+            251,
+            252
+          ],
+          "weight": 0.3981933594
+        },
+        {
+          "color": [
+            5,
+            10,
+            18
+          ],
+          "weight": 0.3708496094
+        },
+        {
+          "color": [
+            167,
+            183,
+            189
+          ],
+          "weight": 0.1762695312
+        },
+        {
+          "color": [
+            251,
+            193,
+            30
+          ],
+          "weight": 0.0305175781
+        },
+        {
+          "color": [
+            214,
+            36,
+            42
+          ],
+          "weight": 0.024169921900000002
+        }
+      ],
+      "entropy": 1.40066513157,
+      "size": 71995
+    },
+    {
+      "caption": null,
+      "url": "http://prod.static.steelers.clubs.nfl.com//assets/images/imported/PIT/photos/2015-Photos/2015_Gameday_CP/Reg05_Chargers_10122015/vick_mike_warmups_cp.jpg",
+      "height": 300,
+      "width": 650,
+      "colors": [
+        {
+          "color": [
+            168,
+            151,
+            55
+          ],
+          "weight": 0.2136230469
+        },
+        {
+          "color": [
+            28,
+            31,
+            32
+          ],
+          "weight": 0.1967773438
+        },
+        {
+          "color": [
+            135,
+            135,
+            135
+          ],
+          "weight": 0.1931152344
+        },
+        {
+          "color": [
+            68,
+            67,
+            69
+          ],
+          "weight": 0.1281738281
+        },
+        {
+          "color": [
+            94,
+            95,
+            98
+          ],
+          "weight": 0.1142578125
+        }
+      ],
+      "entropy": 6.5066386448,
+      "size": 142758
+    },
+    {
+      "caption": null,
+      "url": "http://prod.static.steelers.clubs.nfl.com//assets/images/imported/PIT/photos/2015-Photos/2015_Centerpiece_Misc/10_October/Bryant_10515_CP_1.jpg",
+      "height": 300,
+      "width": 650,
+      "colors": [
+        {
+          "color": [
+            146,
+            158,
+            163
+          ],
+          "weight": 0.3176269531
+        },
+        {
+          "color": [
+            187,
+            205,
+            225
+          ],
+          "weight": 0.2951660156
+        },
+        {
+          "color": [
+            100,
+            113,
+            114
+          ],
+          "weight": 0.2583007812
+        },
+        {
+          "color": [
+            60,
+            71,
+            84
+          ],
+          "weight": 0.0766601562
+        },
+        {
+          "color": [
+            31,
+            40,
+            52
+          ],
+          "weight": 0.052246093800000004
+        }
+      ],
+      "entropy": 5.8578770319,
+      "size": 62868
+    },
+    {
+      "caption": null,
+      "url": "http://prod.static.steelers.clubs.nfl.com//assets/images/imported/PIT/photos/2015-Photos/2015_Centerpiece_Misc/10_October/Nix_Roosevelt_CP_1014_2015.jpg",
+      "height": 300,
+      "width": 650,
+      "colors": [
+        {
+          "color": [
+            123,
+            110,
+            101
+          ],
+          "weight": 0.3491210938
+        },
+        {
+          "color": [
+            214,
+            221,
+            233
+          ],
+          "weight": 0.23242187500000003
+        },
+        {
+          "color": [
+            164,
+            166,
+            175
+          ],
+          "weight": 0.1579589844
+        },
+        {
+          "color": [
+            81,
+            70,
+            71
+          ],
+          "weight": 0.1469726562
+        },
+        {
+          "color": [
+            39,
+            36,
+            38
+          ],
+          "weight": 0.0666503906
+        }
+      ],
+      "entropy": 6.3488750445,
+      "size": 75746
+    },
+    {
+      "caption": null,
+      "url": "http://prod.static.steelers.clubs.nfl.com//assets/images/imported/PIT/photos/2015-Photos/2015_Gameday_CP/Reg04_Ravens_10012015/BrownA03_vs_Baltimore_10012015.jpg",
+      "height": 300,
+      "width": 650,
+      "colors": [
+        {
+          "color": [
+            81,
+            87,
+            92
+          ],
+          "weight": 0.4653320312
+        },
+        {
+          "color": [
+            32,
+            36,
+            43
+          ],
+          "weight": 0.1831054688
+        },
+        {
+          "color": [
+            166,
+            136,
+            64
+          ],
+          "weight": 0.1606445312
+        },
+        {
+          "color": [
+            137,
+            136,
+            135
+          ],
+          "weight": 0.0729980469
+        },
+        {
+          "color": [
+            185,
+            183,
+            180
+          ],
+          "weight": 0.0593261719
+        }
+      ],
+      "entropy": 5.6885311684,
+      "size": 26754
+    }
+  ],
+  "cache_age": 86400,
+  "language": "English",
+  "app_links": [
+
+  ],
+  "original_url": "http://steelers.com",
+  "url": "http://www.steelers.com/",
+  "media": {
+  },
+  "title": "Official Site of the Pittsburgh Steelers",
+  "offset": null,
+  "lead": null,
+  "content": null,
+  "entities": [
+    {
+      "count": 17,
+      "name": "Steelers"
+    },
+    {
+      "count": 3,
+      "name": "Coordinators Listen"
+    },
+    {
+      "count": 3,
+      "name": "Mike Vick"
+    },
+    {
+      "count": 3,
+      "name": "Todd Haley"
+    },
+    {
+      "count": 3,
+      "name": "Chargers"
+    },
+    {
+      "count": 3,
+      "name": "Danny Smith"
+    },
+    {
+      "count": 3,
+      "name": "Keith Butler"
+    },
+    {
+      "count": 2,
+      "name": "Mon."
+    },
+    {
+      "count": 2,
+      "name": "Mike Tomlin"
+    },
+    {
+      "count": 2,
+      "name": "Ben Roethlisberger"
+    },
+    {
+      "count": 2,
+      "name": "Mike Tomlin Press Conference Pittsburgh Steelers"
+    },
+    {
+      "count": 1,
+      "name": "Missi"
+    },
+    {
+      "count": 1,
+      "name": "Steelers Pinterest Steelers"
+    },
+    {
+      "count": 1,
+      "name": "Steelers Emails"
+    },
+    {
+      "count": 1,
+      "name": "Bob Labriola"
+    },
+    {
+      "count": 1,
+      "name": "Mike"
+    },
+    {
+      "count": 1,
+      "name": "Cardinals"
+    },
+    {
+      "count": 1,
+      "name": "Martavis Bryant"
+    },
+    {
+      "count": 1,
+      "name": "Markus Wheaton"
+    },
+    {
+      "count": 1,
+      "name": "Heinz Field"
+    },
+    {
+      "count": 1,
+      "name": "Antonio Brown"
+    },
+    {
+      "count": 1,
+      "name": "NFL"
+    },
+    {
+      "count": 1,
+      "name": "Arizona Cardinals"
+    },
+    {
+      "count": 1,
+      "name": "San Diego Chargers"
+    },
+    {
+      "count": 1,
+      "name": "Bell"
+    },
+    {
+      "count": 1,
+      "name": "Craig"
+    },
+    {
+      "count": 1,
+      "name": "Missi Matthews"
+    },
+    {
+      "count": 1,
+      "name": "Mike Prisuta"
+    },
+    {
+      "count": 1,
+      "name": "Google + Steelers Twitter Steelers Facebook Steelers Instagram Steelers Nation Radio Steelers"
+    },
+    {
+      "count": 1,
+      "name": "Craig Wolfley"
+    }
+  ],
+  "favicon_colors": [
+    {
+      "color": [
+        218,
+        222,
+        219
+      ],
+      "weight": 0.0473632812
+    },
+    {
+      "color": [
+        0,
+        0,
+        2
+      ],
+      "weight": 0.0109863281
+    },
+    {
+      "color": [
+        0,
+        61,
+        131
+      ],
+      "weight": 0.0031738281
+    },
+    {
+      "color": [
+        188,
+        1,
+        31
+      ],
+      "weight": 0.0009765625
+    }
+  ],
+  "keywords": [
+    {
+      "score": 234,
+      "name": "steelers"
+    },
+    {
+      "score": 80,
+      "name": "live"
+    },
+    {
+      "score": 74,
+      "name": "2015"
+    },
+    {
+      "score": 71,
+      "name": "thru"
+    },
+    {
+      "score": 70,
+      "name": "oct"
+    },
+    {
+      "score": 64,
+      "name": "edt"
+    },
+    {
+      "score": 59,
+      "name": "wherever"
+    },
+    {
+      "score": 54,
+      "name": "coordinator"
+    },
+    {
+      "score": 44,
+      "name": "update"
+    },
+    {
+      "score": 40,
+      "name": "eastern"
+    }
+  ],
+  "published": 1444872960000,
+  "provider_name": "Steelers",
+  "type": "html"
+}

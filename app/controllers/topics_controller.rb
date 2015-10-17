@@ -3,7 +3,7 @@ class TopicsController < ApplicationController
 
   # GET /topics
   def index
-    @topics = Topic.all
+    @topics = current_user.topics
   end
 
   # GET /topics/1
@@ -22,7 +22,7 @@ class TopicsController < ApplicationController
 
   # POST /topics
   def create
-    @topic = Topic.new(topic_params)
+    @topic = current_user.topics.build(topic_params)
 
     if @topic.save
       redirect_to @topic, notice: 'Topic was successfully created.'
