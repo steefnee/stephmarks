@@ -1,14 +1,14 @@
 class BookmarksController < ApplicationController
-  before_action :set_bookmark, only: [:show, :edit, :update, :destroy]
+  before_action :set_topic
+  before_action :set_bookmark, except:[:index, :new, :create]
 
   # GET /bookmarks
   def index
-    @bookmarks = Bookmark.all
+    @bookmarks = @topic.bookmarks
   end
 
   # GET /bookmarks/1
   def show
-    @bookmarks = Bookmark.find(params[:id])
   end
 
   # GET /bookmarks/new
@@ -22,11 +22,11 @@ class BookmarksController < ApplicationController
 
   # POST /bookmarks
   def create
-    @bookmark = Bookmark.new(bookmark_params)
+    @bookmark = @topic.bookmarks.build(bookmark_params)
 
 
     if @bookmark.save
-      redirect_to @bookmark, notice: 'Bookmark was successfully created.'
+      redirect_to  @topic, notice: 'Bookmark was successfully created.'
     else
       render :new
     end
@@ -35,7 +35,7 @@ class BookmarksController < ApplicationController
   # PATCH/PUT /bookmarks/1
   def update
     if @bookmark.update(bookmark_params)
-      redirect_to @bookmark, notice: 'Bookmark was successfully updated.'
+      redirect_to @topic, notice: 'Bookmark was successfully updated.'
     else
       render :edit
     end
@@ -44,17 +44,24 @@ class BookmarksController < ApplicationController
   # DELETE /bookmarks/1
   def destroy
     @bookmark.destroy
-    redirect_to bookmarks_url, notice: 'Bookmark was successfully destroyed.'
+    redirect_to @topic, notice: 'Bookmark was successfully destroyed.'
   end
 
   private
     # Use callbacks to share common setup or constraints between actions.
     def set_bookmark
-      @bookmark = Bookmark.find(params[:id])
+      @bookmark = @topic.bookmarks.find(params[:id])
     end
 
     # Only allow a trusted parameter "white list" through.
     def bookmark_params
       params.require(:bookmark).permit(:url, :topic_id)
     end
+
+    def set_topic
+      @topic = Topic.find(params[:topic_id])
+    end
+
+
+
 end
