@@ -32,3 +32,5 @@ gem 'devise'
 gem 'figaro'
 
 gem 'embedly'
+
+gem 'pundit'

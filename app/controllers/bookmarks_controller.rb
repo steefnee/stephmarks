@@ -34,7 +34,9 @@ class BookmarksController < ApplicationController
 
   # PATCH/PUT /bookmarks/1
   def update
+    authorize @bookmark
     if @bookmark.update(bookmark_params)
+      authorize @bookmark
       redirect_to @topic, notice: 'Bookmark was successfully updated.'
     else
       render :edit
@@ -43,6 +45,7 @@ class BookmarksController < ApplicationController
 
   # DELETE /bookmarks/1
   def destroy
+    authorize @bookmark
     @bookmark.destroy
     redirect_to @topic, notice: 'Bookmark was successfully destroyed.'
   end
@@ -61,7 +64,6 @@ class BookmarksController < ApplicationController
     def set_topic
       @topic = Topic.find(params[:topic_id])
     end
-
 
 
 end
