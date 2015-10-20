@@ -2,6 +2,8 @@ class Bookmark < ActiveRecord::Base
   belongs_to :topic
   after_create :get_embedly
 
+  delegate :user, to: :topic
+
 private
   def get_embedly
     embedly_api = Embedly::API.new :key => ENV['EMBEDLY_API_KEY'],

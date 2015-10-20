@@ -1,3 +1,7 @@
 <li>
-  <%= bookmark.url %>
+  <%= link_to image_tag(bookmark.embedly, :height => 200, :width => 200), bookmark.url, target: "_new" %>
+  <p>
+    <%= link_to "Edit", edit_topic_bookmark_path(bookmark.topic, bookmark) %> |
+    <%= link_to "Delete", [bookmark.topic, bookmark], method: :delete %>
+  </p>
 </li>
