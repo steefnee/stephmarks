@@ -1,5 +1,6 @@
 class Bookmark < ActiveRecord::Base
   belongs_to :topic
+  has_many :likes, dependent: :destroy
   after_create :get_embedly
 
   delegate :user, to: :topic
