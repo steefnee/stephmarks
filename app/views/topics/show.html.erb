@@ -1,5 +1,4 @@
-<div class="container">
-<p id="notice"><%= notice %></p>
+
 
 <p>
   <strong>Title:</strong>
@@ -14,11 +13,6 @@
 
 
 <div>
-  <% @topic.bookmarks.each do |bookmark| %>
-  <h5>
-    <%= link_to bookmark.url, [@topic, bookmark] %>
-  </h5>
-    <% end %>
 
   <ul class="bookmarks">
       <%= render @topic.bookmarks %>
@@ -29,5 +23,3 @@
 <%= link_to 'Edit Topic', edit_topic_path(@topic) %> |
 <%= link_to 'Back to all Topics', topics_path %>  |
 <%= link_to "New Bookmark", new_topic_bookmark_path(@topic) %>
-
-</div>
