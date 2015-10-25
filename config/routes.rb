@@ -8,6 +8,9 @@ Rails.application.routes.draw do
     resources :likes, only: [:create, :destroy]
   end
 
+  resources :likes, only: [:index]
+
+
   devise_for :users
   get 'welcome/index'
 
