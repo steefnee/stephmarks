@@ -1,13 +1,12 @@
 // Place all the styles related to the Likes controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+ul.liked li {
+  list-style:  none;
+  float: left;
+  margin: 0 20px 20px 0;
 
-ul.bookmarks li {
-    list-style:  none;
-    float: left;
-    margin: 0 20px 20px 0;
-
-    p {
-      text-align: center;
+  p {
+    text-align: center;
     }
 }

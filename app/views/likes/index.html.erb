@@ -1,4 +1,14 @@
 
 <h1 class="text-center">Your Likes</h1>
 
-<%= render "liked_bookmarks" %>
+<p>
+  <strong>User:</strong>
+  <%= current_user.email %>
+</p>
+
+
+<div>
+  <ul class="liked">
+    <%= render "liked_bookmarks" %>
+  </ul>
+</div>
