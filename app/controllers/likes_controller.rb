@@ -1,4 +1,11 @@
 class LikesController < ApplicationController
+
+  def index
+
+  end
+
+
+
   def create
   @bookmark = Bookmark.find(params[:bookmark_id])
   like = current_user.likes.build(bookmark: @bookmark)
@@ -24,5 +31,6 @@ class LikesController < ApplicationController
 
     redirect_to topic_path(@bookmark.topic)
   end
+
 
 end

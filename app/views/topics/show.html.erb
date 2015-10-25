@@ -1,5 +1,4 @@
 
-
 <p>
   <strong>Title:</strong>
   <%= @topic.title %>
@@ -10,16 +9,16 @@
   <%= @topic.user.email %>
 </p>
 
-
-
 <div>
-
   <ul class="bookmarks">
       <%= render @topic.bookmarks %>
-
-    </ul>
+  </ul>
 </div>
 
+<br>
+
+<div>
 <%= link_to 'Edit Topic', edit_topic_path(@topic) %> |
 <%= link_to 'Back to all Topics', topics_path %>  |
 <%= link_to "New Bookmark", new_topic_bookmark_path(@topic) %>
+</div>
