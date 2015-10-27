@@ -1,6 +1,5 @@
-  <li>
+
     <% current_user.likes.map(&:bookmark).each do |bookmark| %>
-      <%= link_to image_tag(bookmark.embedly, :height => 200, :width => 200), bookmark.url, target: "_new" %>
-      <%= render partial: 'likes/like', locals: { bookmark: bookmark } %>
+      <li><%= link_to image_tag(bookmark.embedly, :height => 200, :width => 200), bookmark.url, target: "_new" %>
+      <%= render partial: 'likes/like', locals: { bookmark: bookmark } %></li>
     <% end %>
-  </li>
